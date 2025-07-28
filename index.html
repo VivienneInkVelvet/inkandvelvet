@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ink & Velvet</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #f9f6f2;
+      color: #3a3a3a;
+    }
+
+    header {
+      background-color: #1c1c1c;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      letter-spacing: 2px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #333;
+    }
+
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: block;
+    }
+
+    nav a:hover {
+      background-color: #575757;
+    }
+
+    .banner {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .content {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .content h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+
+    .content p {
+      font-size: 1rem;
+      color: #555;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .newsletter-section {
+      background: #f3f0eb;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .newsletter-section h2 {
+      font-size: 1.6rem;
+      color: #3a3a3a;
+    }
+
+    .newsletter-section p {
+      font-size: 1rem;
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    .newsletter-section form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    .newsletter-section input[type="email"] {
+      padding: 12px;
+      width: 70%;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+      margin-right: 10px;
+      font-family: 'Georgia', serif;
+    }
+
+    .newsletter-section button {
+      padding: 12px 20px;
+      background-color: #6c63ff;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      font-family: 'Georgia', serif;
+    }
+
+    .newsletter-section button:hover {
+      background-color: #574fdb;
+    }
+
+    footer {
+      background-color: #1c1c1c;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ink & Velvet</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <img src="banner.jpg" alt="Ink and Velvet Banner" class="banner">
+
+  <div class="content">
+    <h2>Where Stories Are Stitched in Ink</h2>
+    <p>Welcome to Ink & Velvet, a cozy corner of the web where your ideas come to life through elegant, custom creations. Explore our shop or reach out for something uniquely yours.</p>
+  </div>
+
+  <section class="newsletter-section">
+    <h2>✨ Join Our Newsletter</h2>
+    <p>Get exclusive updates from Ink & Velvet straight to your inbox.</p>
+    <form action="https://formspree.io/f/mkgzbboq" method="POST">
+      <input type="email" name="email" placeholder="Enter your email" required />
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Ink & Velvet by Vivienne Hart. All rights reserved.
+  </footer>
+
+</body>
+</html>
