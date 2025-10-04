@@ -29,6 +29,7 @@
       display: flex;
       justify-content: center;
       background-color: #333;
+      flex-wrap: wrap;
     }
 
     nav a {
@@ -36,6 +37,7 @@
       padding: 14px 20px;
       text-decoration: none;
       display: block;
+      transition: background-color 0.3s;
     }
 
     nav a:hover {
@@ -106,6 +108,7 @@
       font-size: 1rem;
       cursor: pointer;
       font-family: 'Georgia', serif;
+      transition: background-color 0.3s;
     }
 
     .newsletter-section button:hover {
@@ -119,6 +122,17 @@
       padding: 20px;
       margin-top: 40px;
     }
+
+    footer a {
+      color: #cfcfcf;
+      text-decoration: none;
+      margin: 0 6px;
+    }
+
+    footer a:hover {
+      color: #ffffff;
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
@@ -130,9 +144,9 @@
   <nav>
     <a href="index.html">Home</a>
     <a href="shop.html">Shop</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
     <a href="collection.html">Collection</a>
+    <a href="aboutme.html">The Story</a>
+    <a href="contact.html">Contact</a>
   </nav>
 
   <img src="banner.jpg" alt="Ink and Velvet Banner" class="banner">
@@ -152,7 +166,14 @@
   </section>
 
   <footer>
-    &copy; 2025 Ink & Velvet by Vivienne Hart. All rights reserved.
+    <p>
+      <a href="index.html">Home</a> ·
+      <a href="shop.html">Shop</a> ·
+      <a href="collection.html">Collection</a> ·
+      <a href="aboutme.html">The Story</a> ·
+      <a href="contact.html">Contact</a>
+    </p>
+    <p>&copy; 2025 Ink & Velvet by Vivienne Hart. All rights reserved.</p>
   </footer>
 
 </body>
