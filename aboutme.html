@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>About — Ink & Velvet</title>
+<meta name="description" content="About Vivienne — Ink & Velvet: a cozy creative sanctuary of poems, stories and reflections.">
+<style>
+:root{
+--bg:#0f0e10;
+--card:#111014;
+--muted:#bfb6b8;
+--accent:#a87b95;
+--glass: rgba(255,255,255,0.03);
+--max-width:760px;
+font-family: "Playfair Display", Georgia, serif;
+}
+@media (prefers-reduced-motion: no-preference){
+.fade-in{animation:fadeIn 900ms ease both;}
+@keyframes fadeIn{from{opacity:0; transform:translateY(10px)} to{opacity:1; transform:none}}
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+margin:0;
+background: radial-gradient(1200px 600px at 10% 10%, rgba(168,123,149,0.08), transparent 6%),
+radial-gradient(1000px 500px at 90% 90%, rgba(20,18,22,0.6), transparent 10%),
+var(--bg);
+color:#efecec;
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;
+display:flex;
+align-items:center;
+justify-content:center;
+padding:48px 24px;
+}
+.container{
+width:100%;
+max-width:var(--max-width);
+background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+border:1px solid rgba(255,255,255,0.04);
+border-radius:16px;
+padding:48px;
+box-shadow: 0 10px 30px rgba(2,2,2,0.6), inset 0 1px 0 rgba(255,255,255,0.02);
+backdrop-filter: blur(6px) saturate(110%);
+}
+header{
+display:flex;
+align-items:baseline;
+gap:16px;
+margin-bottom:18px;
+}
+.logo{
+font-family: Georgia, 'Playfair Display', serif;
+font-size:20px;
+letter-spacing:2px;
+text-transform:uppercase;
+color:#f6eef0;
+opacity:0.95;
+}
+h1{
+margin:0;
+font-size:34px;
+line-height:1.05;
+font-weight:700;
+color:#fff;
+letter-spacing:-0.4px;
+}
+.byline{font-style:italic; color:var(--muted); margin-top:6px;}
+
+
+.card{
+margin-top:12px;
+padding:28px 26px;
+border-radius:12px;
+background: linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.00));
+border: 1px solid rgba(255,255,255,0.03);
+}
+p{color:#efecec; margin:0 0 16px 0; font-size:18px; line-height:1.65}
+.lead{font-size:20px; color:#f8f4f5; margin-bottom:12px}
+</html>SS
