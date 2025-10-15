@@ -13,8 +13,8 @@
     }
 
     header {
-      background-color: #1a1a1a; /* matched About page header color */
-      color: #f9f4ef;           /* matched About page text color */
+      background-color: #1a1a1a;
+      color: #f9f4ef;
       padding: 20px;
       text-align: center;
     }
@@ -28,12 +28,12 @@
     nav {
       display: flex;
       justify-content: center;
-      background-color: #eae4dc; /* matched About page nav */
+      background-color: #eae4dc;
       flex-wrap: wrap;
     }
 
     nav a {
-      color: #1a1a1a;          /* matched About page link color */
+      color: #1a1a1a;
       padding: 14px 20px;
       text-decoration: none;
       display: block;
@@ -66,8 +66,29 @@
       font-size: 1rem;
       color: #555;
       max-width: 700px;
-      margin: 0 auto 20px auto;
+      margin: 0 auto 30px auto;
       font-style: italic;
+    }
+
+    /* --- Click Here Button --- */
+    .poem-button {
+      display: inline-block;
+      background-color: #1a1a1a;
+      color: #f9f4ef;
+      padding: 12px 28px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 1rem;
+      font-style: italic;
+      letter-spacing: 0.5px;
+      transition: all 0.3s ease;
+      border: 1px solid #c5bdb6;
+    }
+
+    .poem-button:hover {
+      background-color: #3a3a3a;
+      transform: scale(1.05);
+      color: #ffffff;
     }
 
     .newsletter-section {
@@ -119,7 +140,7 @@
     }
 
     footer {
-      background-color: #1a1a1a; /* matched About page footer */
+      background-color: #1a1a1a;
       color: #f9f4ef;
       text-align: center;
       padding: 20px;
@@ -150,7 +171,7 @@
     <a href="index.html">Home</a>
     <a href="shop.html">Shop</a>
     <a href="collection.html">Collection</a>
-    <a href="about.html">About</a> <!-- fixed link -->
+    <a href="about.html">About</a>
     <a href="contact.html">Contact</a>
   </nav>
 
@@ -159,6 +180,9 @@
   <div class="content">
     <h2>Where Stories Are Stitched in Ink</h2>
     <p>Welcome to Ink & Velvet, a cozy corner of the web where your ideas come to life through elegant, custom creations. Explore our shop or reach out for something uniquely yours.</p>
+    
+    <!-- ✨ New Button -->
+    <a href="poems.html" class="poem-button">Click here</a>
   </div>
 
   <section class="newsletter-section">
